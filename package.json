@@ -1,0 +1,21 @@
+{
+  "name": "ebuddy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "packageManager": "npm@10.7.0",
+  "dependencies": {
+    "next": "^15.0.3"
+  }
+}

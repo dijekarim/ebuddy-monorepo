@@ -1,0 +1,24 @@
+
+
+> frontend-repo@0.1.0 build
+> next build
+
+[1G[0K   [1m[38;2;173;127;168m▲ Next.js 15.0.2[39m[22m
+
+ [37m[1m [22m[39m Creating an optimized production build ...
+ [32m[1m✓[22m[39m Compiled successfully
+[?25l [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G[?25h[31m
+Failed to compile.[39m
+[?25l [36m.[39m [2K[1G[?25h
+[36m./app/users/edit/[id]/page.tsx[39m
+[33m16[39m:[33m17[39m  [31m[1mError[22m[39m: 'status' is assigned a value but never used.  [90m[1m@typescript-eslint/no-unused-vars[22m[39m
+
+[36m./components/UsersList.tsx[39m
+[33m15[39m:[33m50[39m  [31m[1mError[22m[39m: React Hook "useRouter" is called conditionally. React Hooks must be called in the exact same order in every component render.  [90m[1mreact-hooks/rules-of-hooks[22m[39m
+
+[36minfo[39m  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+[?25l [36m.[39m [?25h[1G[0K⠙[1G[0K[1mnpm[22m [31merror[39m [94mLifecycle script `build` failed with error:[39m
+[1G[0K⠙[1G[0K[1mnpm[22m [31merror[39m [94mError: command failed[39m
+[1G[0K⠙[1G[0K[1mnpm[22m [31merror[39m [94m  in workspace: frontend-repo@0.1.0[39m
+[1G[0K⠙[1G[0K[1mnpm[22m [31merror[39m [94m  at location: /Users/dijeka/projects/ebuddy/apps/frontend-repo[39m
+[1G[0K⠙[1G[0K
