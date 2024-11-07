@@ -4,6 +4,17 @@ import { User } from 'shared';
 
 const db = firebase.firestore();
 
+// Create new user
+export const createUser = async (req: Request, res: Response): Promise<void> => {
+  try {
+    const data: Partial<User> = req.body;
+    const user = await db.collection('users').add(data);
+    res.status(201).json({ message: 'User created successfully', user: user });
+  } catch (error) {
+    res.status(500).json({ message: 'Error creating user', error });
+  }
+}
+
 // Get a user by ID
 export const getUser = async (req: Request, res: Response): Promise<void> => {
   try {
